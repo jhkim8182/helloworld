@@ -10,7 +10,7 @@ import numpy as np
 import altair as alt
 import pandas as pd
 from datetime import time, datetime
-from streamlit_pandas_profiling import st_profile_report
+#from streamlit_pandas_profiling import st_profile_report
 
 st.header('st.button')
 
