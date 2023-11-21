@@ -10,6 +10,7 @@ import numpy as np
 import altair as alt
 import pandas as pd
 from datetime import time, datetime
+
 st.header('st.button')
 
 if st.button('Say hello'):
@@ -122,8 +123,3 @@ if coffee:
     st.write("Okay, here's some :coffee:")
 if cola:
     st.write("Here you go :cola:")
-
-# Day 14
-st.header('streamlit_pandas_profiling')
-
-df = pd.read_csv('https://raw.githubusercontent.com/dataprofessor/data/master/penguins_cleaned.csv')
