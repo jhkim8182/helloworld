@@ -134,18 +134,23 @@ st.latex(r'''
          ''')
 
 # Day 16
-st.title('Customizing the theme of Streamlit apps')
+#st.title('Customizing the theme of Streamlit apps')
 
-st.write('Contents of the '/config.toml' file of this app')
+#st.write('Contents of the '/config.toml' file of this app')
 
-st.code("""
-[theme]
-primaryColor="#F39C12"
-backgroundColor="#2E86C1"
-secondaryBackgroundColor="#AED6F1"
-textColor="#FFFFFF"
-font="monospace"
-""")
+#st.code("""
+#[theme]
+#primaryColor="#F39C12"
+#backgroundColor="#2E86C1"
+#secondaryBackgroundColor="#AED6F1"
+#textColor="#FFFFFF"
+#font="monospace"
+#""")
 
-number = st.sidebar.slider('Select a number:', 0, 10, 5)
-st.write('Selected number from slider widget is:', number)
+#number = st.sidebar.slider('Select a number:', 0, 10, 5)
+#st.write('Selected number from slider widget is:', number)
+
+
+# Day 17
+st.title('st.secrets')
+st.write(st.secrets['message'])
