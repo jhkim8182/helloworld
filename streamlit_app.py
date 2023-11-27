@@ -152,5 +152,5 @@ st.latex(r'''
 
 
 # Day 17
-st.title('st.secrets')
-st.write(st.secrets['message'])
+#st.title('st.secrets')
+#st.write(st.secrets['message'])
