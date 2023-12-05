@@ -292,10 +292,10 @@ st.write(st.experimental_get_query_params())
 # 3. Retrieving and displaying information from the URL
 st.header('3. Retrieving and displaying information from the URL')
 
-firstname = st.experimental_get_query_params()['firstname'][0]
-surname = st.experimental_get_query_params()['surname'][0]
+#firstname = st.experimental_get_query_params()['firstname'][0]
+#surname = st.experimental_get_query_params()['surname'][0]
 
-st.write(f'Hello **{firstname} {surname}**, how are you?')
+#st.write(f'Hello **{firstname} {surname}**, how are you?')
 
 
 # Day 24
